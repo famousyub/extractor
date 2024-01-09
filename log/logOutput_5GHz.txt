@@ -1,0 +1,1459 @@
+================================= Run 1 ===================================
+Summary
+======== Technology: WIFI_11AC
+
+1.GLOBAL_SETTINGS  ___________________________________________________________
+ACK_PACKET_DELAY_TIME                             :         10         
+ALWAYS_AGC                                        :          0         
+ANALYSIS_11AC_AMPLITUDE_TRACKING                  :          0         
+ANALYSIS_11AC_DECODE_PSDU                         :          0         
+ANALYSIS_11AC_FREQUENCY_CORRELATION               :          2         
+ANALYSIS_11AC_FULL_PACKET_CHANNEL_EST             :          0         
+ANALYSIS_11AC_MASK_ACCORDING_CBW                  :          0         
+ANALYSIS_11AC_PHASE_CORR                          :          1         
+ANALYSIS_11AC_PREAMBLE_AVERAGING                  :          0         
+ANALYSIS_11AC_SYM_TIMING_CORR                     :          1         
+ANALYSIS_11AG_AMPL_TRACK                          :          1         
+ANALYSIS_11AG_CH_ESTIMATE                         :          1         
+ANALYSIS_11AG_FREQ_SYNC                           :          2         
+ANALYSIS_11AG_PH_CORR_MODE                        :          2         
+ANALYSIS_11AG_SYM_TIM_CORR                        :          2         
+ANALYSIS_11AH_AMPL_TRACK                          :          1         
+ANALYSIS_11AH_CH_ESTIMATE                         :          0         
+ANALYSIS_11AH_FREQ_SYNC                           :          0         
+ANALYSIS_11AH_PH_CORR_MODE                        :          1         
+ANALYSIS_11AH_SYM_TIM_CORR                        :          1         
+ANALYSIS_11B_DC_REMOVE_FLAG                       :          0         
+ANALYSIS_11B_EQ_TAPS                              :          1         
+ANALYSIS_11B_FIXED_01_DATA_SEQUENCE               :          0         
+ANALYSIS_11B_METHOD_11B                           :          1         
+ANALYSIS_11NAHPREAMBLE_AVERAGING                  :          0         
+ANALYSIS_11N_AMPLITUDE_TRACKING                   :          0         
+ANALYSIS_11N_DECODE_PSDU                          :          0         
+ANALYSIS_11N_FREQUENCY_CORRELATION                :          2         
+ANALYSIS_11N_FULL_PACKET_CHANNEL_EST              :          0         
+ANALYSIS_11N_PHASE_CORR                           :          1         
+ANALYSIS_11N_PREAMBLE_AVERAGING                   :          0         
+ANALYSIS_11N_SYM_TIMING_CORR                      :          1         
+AUTO_READING_LIMIT                                :          0         
+DUT_KEEP_TRANSMIT                                 :          1         
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+DUT_RX_SETTLE_TIME_MS_RETRY                       :          0 ms      
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+DUT_TX_SETTLE_TIME_MS_RETRY                       :          0 ms      
+ENABLE_FAST_PER                                   :          0         
+EVM_AVERAGE                                       :          3         
+EVM_AVERAGE_RETRY                                 :          0         
+EVM_CAPTURE_TIME_11AC_HT_GF_US                    :        300 us      
+EVM_CAPTURE_TIME_11AC_HT_MF_US                    :        300 us      
+EVM_CAPTURE_TIME_11AC_NON_HT_US                   :        300 us      
+EVM_CAPTURE_TIME_11AC_VHT_US                      :        300 us      
+EVM_CAPTURE_TIME_11AG_US                          :         95 us      
+EVM_CAPTURE_TIME_11AH_US                          :        500 us      
+EVM_CAPTURE_TIME_11B_L_US                         :        464 us      
+EVM_CAPTURE_TIME_11B_S_US                         :        232 us      
+EVM_CAPTURE_TIME_11N_GREENFIELD_US                :        115 us      
+EVM_CAPTURE_TIME_11N_MIXED_US                     :        123 us      
+EVM_PRE_TRIG_TIME_US                              :          3 us      
+EVM_SYMBOL_NUM                                    :         18         
+IQ_P_TO_A_11AG_12M                                :         10 dB      
+IQ_P_TO_A_11AG_18M                                :         10 dB      
+IQ_P_TO_A_11AG_24M                                :         10 dB      
+IQ_P_TO_A_11AG_36M                                :         10 dB      
+IQ_P_TO_A_11AG_48M                                :         10 dB      
+IQ_P_TO_A_11AG_54M                                :         10 dB      
+IQ_P_TO_A_11AG_6M                                 :         10 dB      
+IQ_P_TO_A_11AG_9M                                 :         10 dB      
+IQ_P_TO_A_11AH                                    :         10 dB      
+IQ_P_TO_A_11B_11M                                 :          2 dB      
+IQ_P_TO_A_11B_1M                                  :          2 dB      
+IQ_P_TO_A_11B_2M                                  :          2 dB      
+IQ_P_TO_A_11B_5_5M                                :          2 dB      
+IQ_P_TO_A_11N_MCS0                                :         10 dB      
+IQ_P_TO_A_11N_MCS1                                :         10 dB      
+IQ_P_TO_A_11N_MCS2                                :         10 dB      
+IQ_P_TO_A_11N_MCS3                                :         10 dB      
+IQ_P_TO_A_11N_MCS4                                :         10 dB      
+IQ_P_TO_A_11N_MCS5                                :         10 dB      
+IQ_P_TO_A_11N_MCS6                                :         10 dB      
+IQ_P_TO_A_11N_MCS7                                :         10 dB      
+LOAD_INTERNAL_WAVEFORM                            :          0         
+MASK_AVERAGE                                      :          1         
+MASK_DSSS_SAMPLE_INTERVAL_US                      :        286 us      
+MASK_OFDM_SAMPLE_INTERVAL_US                      :         95 us      
+PACKET_FORMAT_AUTO_DETECTION                      :          0         
+PER_FRAME_COUNT_11AC                              :        500         
+PER_FRAME_COUNT_11AG                              :        500         
+PER_FRAME_COUNT_11AH                              :        500         
+PER_FRAME_COUNT_11B                               :        500         
+PER_FRAME_COUNT_11N                               :        500         
+PER_VSG_TIMEOUT_SEC                               :         20 sec     
+PM_AVERAGE                                        :          3         
+PM_DSSS_SAMPLE_INTERVAL_US                        :        100 us      
+PM_IF_FREQ_SHIFT_MHZ                              :          0 MHz     
+PM_OFDM_SAMPLE_INTERVAL_US                        :         20 us      
+RELATIVE_LIMIT                                    :          0         
+RESET_TEST_ITEM_DURING_RETRY                      :          0         
+RETRY_ERROR_ITEMS                                 :          0         
+RETRY_TEST_ITEM                                   :          0         
+SPECTRUM_DSSS_SAMPLE_INTERVAL_US                  :        286 us      
+SPECTRUM_HALF_SAMPLE_INTERVAL_US                  :        187 us      
+SPECTRUM_OFDM_SAMPLE_INTERVAL_US                  :         95 us      
+SPECTRUM_QUAR_SAMPLE_INTERVAL_US                  :        371 us      
+STORE_RAW_DATA                                    :          0         
+VDUT_TIMEOUT_MS                                   :          0 msec    
+VSA_PORT                                          :          2         
+VSA_SAVE_CAPTURE_ALWAYS                           :          0         
+VSA_SAVE_CAPTURE_ON_FAILED                        :          1         
+VSA_TRIGGER_TYPE                                  :          6         
+VSG_PORT                                          :          2         
+VSA_AMPLITUDE_TOLERANCE_DB                        :          3 dB      
+VSA_PRE_TRIGGER_TIME_US                           :          3 us      
+VSA_TRIGGER_LEVEL_DB                              :        -25 dB      
+VSG_MAX_POWER_11AC                                :         -5         
+VSG_MAX_POWER_11B                                 :          0         
+VSG_MAX_POWER_11G                                 :         -5         
+VSG_MAX_POWER_11N                                 :         -5         
+LOG_PATH                                          :         ./         
+PER_WAVEFORM_DESTINATION_MAC                      : 000000C0FFEE         
+PER_WAVEFORM_PATH                                 :   ../iqvsg         
+PER_WAVEFORM_PREFIX_11AC                          :                    
+PER_WAVEFORM_PREFIX_11AG                          :                    
+PER_WAVEFORM_PREFIX_11AH                          :                    
+PER_WAVEFORM_PREFIX_11B                           :                    
+PER_WAVEFORM_PREFIX_11N                           :                    
+PER_WAVEFORM_SUFFIX_11AC                          :                    
+PER_WAVEFORM_SUFFIX_11AG                          :                    
+PER_WAVEFORM_SUFFIX_11AH                          :                    
+PER_WAVEFORM_SUFFIX_11B                           :                    
+PER_WAVEFORM_SUFFIX_11N                           :                    
+VSA_PORT_CHAIN_MAP                                :    0,0,0,0         
+VSG_PORT_CHAIN_MAP                                :    0,0,0,0         
+Test Time = 0.016 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+2.INSERT_DUT  ________________________________________________________________
+RELOAD_DUT_DLL                                    :          0         
+CONNECTION_STRING                                 : 192.168.1.1         
+DUT_DLL_FILENAME                                  : BRCM6726_Telnet.dll         
+EEPROM_FILENAME                                   :                    
+OPTION_STRING                                     : WLAN_BRCM_General_TELNET_config_5G.ini         
+Test Time = 1.669 s
+DUT_VERSION                                       : 5.0.0.5 (09/06/2023) Rev: 289999 
+VDUT_VERSION                                      : 3.0.0 (2012-8-24) 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+3.INITIALIZE_DUT  ____________________________________________________________
+Test Time = 2.655 s
+DUT_DRIVER_INFO                                   : 1.0.0
+Wl versions:
+ 
+DUT_NAME                                          : +               
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+4.CONNECT_IQ_TESTER  _________________________________________________________
+APP_ID                                            :          1         
+APT_ENABLE                                        :          0         
+DH_ENABLE                                         :          0         
+DH_OBTAIN_CONTROL_TIMEOUT_MS                      :     300000 ms      
+DH_PROBE_TIME_MS                                  :        100 ms      
+DH_SESSION_NUMBER                                 :          1         
+DH_TOKEN_ID                                       :          1         
+IQTESTER_RECONNECT                                :          0         
+IQTESTER_TYPE                                     :          1         
+REQUEST_RESOURCE_TIMEOUT_SEC                      :         30 sec     
+SW_NUMBER                                         :          1         
+TEMP_COMP_THRESHOLD                               :          0 CEL     
+IQTESTER_MODULE_01                                : 192.168.7.254:A         
+IQTESTER_MODULE_02                                :                    
+IQTESTER_MODULE_03                                :                    
+IQTESTER_MODULE_04                                :                    
+IQTESTER_MODULE_05                                :                    
+IQTESTER_MODULE_06                                :                    
+IQTESTER_MODULE_07                                :                    
+IQTESTER_MODULE_08                                :                    
+OPTION_STRING                                     :                    
+Test Time = 0.504 s
+IQMEASURE_VERSION                                 : 4.0.6.0 (2023-06-02) 289999 
+IQTESTER_INFO                                     : IQmeasure: 4.0.6.0 (2023-06-02) 289999
+Tester 1 SN: IQ162DA4131
+Model number: IQXEL-M8X
+Firmware revision: 1.16.0
+Tester 1 hardware version: M.5.0.0
+
+ 
+IQTESTER_SERIAL_NUM_01                            : IQ162DA4131     
+TEST_MANAGER_VERSION                              : 5.0.1 (2022-11-11) 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+5.LOAD_PATH_LOSS_TABLE  ______________________________________________________
+RX_PATH_LOSS_FILE                                 : path_loss.csv         
+TX_PATH_LOSS_FILE                                 : path_loss.csv         
+Test Time = 0.009 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+6.IMPLICIT_BEAMFORMING_CAL  MCS0 VHT BW-20 ___________________________________
+AVERAGE_NUM                                       :          1         
+FRAME_COUNT                                       :          0         
+NUM_STREAM_11AC                                   :          4         
+SMOOTHNESS_RETRY_TIME                             :          5         
+TX1/RX1                                           :          1         
+TX2/RX2                                           :          1         
+TX3/RX3                                           :          1         
+TX4/RX4                                           :          1         
+CABLE_LOSS_DB_1                                   :          0 dB      
+CABLE_LOSS_DB_2                                   :          0 dB      
+CABLE_LOSS_DB_3                                   :          0 dB      
+CABLE_LOSS_DB_4                                   :          0 dB      
+DATA_SMOOTHNESS_THRESHOLD                         :         15         
+RX_POWER_DBM                                      :        -45 dBm     
+SAMPLING_TIME_US                                  :     300.00 us      
+TX_POWER_DBM                                      :      12.00 dBm     
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+BSS_FREQ_LIST_MHZ_PRIMARY                         : 5200 5280 5500 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+DATA_RATE                                         :       MCS0         
+OPTION_STRING                                     :                    
+PACKET_FORMAT                                     :        VHT         
+REF_FILE_NAME                                     :                    
+STANDARD                                          :   802.11ac         
+WAVEFORM_NAME                                     : WiFi_11AC_VHT20_S1_MCS0.iqvsg         
+Test Time = 70.493 s
+CAL_BAND_0                                        :            0 MHZ    (,)
+CAL_BAND_1                                        :         5200 MHZ    (,)
+CAL_BAND_2                                        :         5280 MHZ    (,)
+CAL_BAND_3                                        :         5500 MHZ    (,)
+CAL_BAND_4                                        :            0 MHZ    (,)
+NUM_CAL_BAND                                      :            3        (,)
+rPcal_B0_Phase                                    :            0 degree (,)
+rPcal_B1_Phase                                    :            0 degree (,)
+rPcal_B2_Phase                                    :            0 degree (,)
+CAL_BAND_0_CHAIN_1                                :         0.00 Radius (,)
+CAL_BAND_0_CHAIN_2                                :         0.00 Radius (,)
+CAL_BAND_0_CHAIN_3                                :         0.00 Radius (,)
+CAL_BAND_1_CHAIN_1                                :         1.55 Radius (,)
+CAL_BAND_1_CHAIN_2                                :         2.81 Radius (,)
+CAL_BAND_1_CHAIN_3                                :         5.38 Radius (,)
+CAL_BAND_2_CHAIN_1                                :         1.50 Radius (,)
+CAL_BAND_2_CHAIN_2                                :         2.67 Radius (,)
+CAL_BAND_2_CHAIN_3                                :         5.25 Radius (,)
+CAL_BAND_3_CHAIN_1                                :         1.36 Radius (,)
+CAL_BAND_3_CHAIN_2                                :         2.37 Radius (,)
+CAL_BAND_3_CHAIN_3                                :         5.22 Radius (,)
+CAL_BAND_4_CHAIN_1                                :         0.00 Radius (,)
+CAL_BAND_4_CHAIN_2                                :         0.00 Radius (,)
+CAL_BAND_4_CHAIN_3                                :         0.00 Radius (,)
+RSSI                                              :         0.00 dBm    (,)
+RX_POWER_LEVEL                                    :       -45.00 dBm    (,)
+TX_POWER_DBM                                      :        12.00 dBm    (,)
+CAL_RESULT                                        : 
+5200 MHz, run 1, angle_chain_1=63, angle_chain_2=114, angle_chain_3=219.
+
+
+5280 MHz, run 1, angle_chain_1=61, angle_chain_2=109, angle_chain_3=214.
+
+
+5500 MHz, run 1, angle_chain_1=55, angle_chain_2=97, angle_chain_3=213.
+
+ 
+rPcal_A                                           : 0x0             
+rPcal_A_Core3                                     : 0x00            
+rPcal_B0                                          : 0x723f          
+rPcal_B0_Core3                                    : 0xdb            
+rPcal_B1                                          : 0x6d3d          
+rPcal_B1_Core3                                    : 0xd6            
+rPcal_B2                                          : 0x6137          
+rPcal_B2_Core3                                    : 0xd5            
+rPcal_B3                                          : 0x0             
+rPcal_B3_Core3                                    : 0x00            
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+7.IMPLICIT_BEAMFORMING_VERIFICATION  MCS0 VHT BW-20 __________________________
+AGC                                               :          0         
+AVERAGE_NUM                                       :          3         
+NUM_STREAM_11AC                                   :          1         
+TX1/RX1                                           :          1         
+TX2/RX2                                           :          1         
+TX3/RX3                                           :          1         
+TX4/RX4                                           :          1         
+CABLE_LOSS_DB_1                                   :          0 dB      
+CABLE_LOSS_DB_2                                   :          0 dB      
+CABLE_LOSS_DB_3                                   :          0 dB      
+CABLE_LOSS_DB_4                                   :          0 dB      
+RX_POWER_DBM                                      :        -45 dBm     
+SAMPLING_TIME_US                                  :     300.00 us      
+TX_POWER_DBM                                      :      12.00 dBm     
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+BSS_FREQ_LIST_MHZ_PRIMARY                         :       5200 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+DATA_RATE                                         :       MCS0         
+OPTION_STRING                                     :                    
+PACKET_FORMAT                                     :        VHT         
+STANDARD                                          :   802.11ac         
+WAVEFORM_NAME                                     :                    
+Test Time = 14.347 s
+CAL_BAND_0                                        :            0 MHZ    (,)
+CAL_BAND_1                                        :         5200 MHZ    (,)
+CAL_BAND_2                                        :            0 MHZ    (,)
+CAL_BAND_3                                        :            0 MHZ    (,)
+CAL_BAND_4                                        :            0 MHZ    (,)
+NUM_CAL_BAND                                      :            1        (,)
+POWER_DIFFERENCE_1                                :         6.68 dBm    ( 4,)
+VERIFY_RESULT                                     : 
+Run 1, 5200 MHz, Streering power=14.0524 dBm, NO steering power=7.3566 dBm, powerDifference=6.6958 dBm, PER = 0.00, RSSI = 0.
+Run 2, 5200 MHz, Streering power=14.0244 dBm, NO steering power=7.3457 dBm, powerDifference=6.6787 dBm, PER = 0.00, RSSI = 0.
+Run 3, 5200 MHz, Streering power=13.9808 dBm, NO steering power=7.3175 dBm, powerDifference=6.6632 dBm, PER = 0.00, RSSI = 0.
+ 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+8.RX_CALIBRATION  ____________________________________________________________
+CABLE_LOSS_DB_1                                   :          0 dB      
+CABLE_LOSS_DB_2                                   :          0 dB      
+CABLE_LOSS_DB_3                                   :          0 dB      
+CABLE_LOSS_DB_4                                   :          0 dB      
+RX_CAL_TIMEOUT_MS                                 :     6e+005 MS      
+SAMPLING_TIME_US                                  :          0 uS      
+WAVEFORM_NAME                                     : WiFi_11AX_HE20_S1_MCS0.iqvsg         
+Test Time = 35.743 s
+CABLE_LOSS_DB_4                                   :        28.61 dB     (,)
+CAL_RESULT_1                                      : 
+
+	[5G Low]
+		=>  a0_gainerror_5G	= -2		(-1.00 dB)
+		=>  a1_gainerror_5G	= -4		(-2.00 dB)	=>  a1_delta= -2
+		=>  a2_gainerror_5G	= -4		(-2.00 dB)	=>  a2_delta= -2
+		=>  a3_gainerror_5G	= -2		(-1.00 dB)	=>  a3_delta= 0
+
+	[5G Mid]
+		=>  a0_gainerror_5G	= -2		(-1.00 dB)
+		=>  a1_gainerror_5G	= -2		(-1.00 dB)	=>  a1_delta= 0
+		=>  a2_gainerror_5G	= -4		(-2.00 dB)	=>  a2_delta= -2
+		=>  a3_gainerror_5G	= -4		(-2.00 dB)	=>  a3_delta= -2
+
+	[5G High]
+		=>  a0_gainerror_5G	= -4		(-2.00 dB)
+		=>  a1_gainerror_5G	= -4		(-2.00 dB)	=>  a1_delta= 0
+		=>  a2_gainerror_5G	= -6		(-3.00 dB)	=>  a2_delta= -2
+		=>  a3_gainerror_5G	= -4		(-2.00 dB)	=>  a3_delta= 0
+
+	[5G Ultra High]
+		=>  a0_gainerror_5G	= -6		(-3.00 dB)
+		=>  a1_gainerror_5G	= -8		(-4.00 dB)	=>  a1_delta= -2
+		=>  a2_gainerror_5G	= -8		(-4.00 dB)	=>  a2_delta= -2
+		=>  a3_gainerror_5G	= -6		(-3.00 dB)	=>  a3_delta= 0
+ 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+9.REMOVE_DUT  ________________________________________________________________
+OPTION_STRING                                     :                    
+Test Time = 0.352 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+10.DISCONNECT_IQ_TESTER  _____________________________________________________
+Test Time = 0.002 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+======== Technology: WIFI_11BE
+
+11.GLOBAL_SETTINGS  __________________________________________________________
+ANTENNA_COUNT                                     :          8         
+ANT1_PORT                                         :                    
+ALWAYS_AGC                                        :          0         
+ANALYSIS_11AC_MASK_ACCORDING_CBW                  :          0         
+ANALYSIS_11B_DC_REMOVE_FLAG                       :          0         
+ANALYSIS_11B_EQ_TAPS                              :          1         
+ANALYSIS_11B_FIXED_01_DATA_SEQUENCE               :          0         
+ANALYSIS_11B_METHOD_11B                           :          1         
+ANALYSIS_AMPLITUDE_TRACKING                       :          1         
+ANALYSIS_DECODE_PSDU                              :          1         
+ANALYSIS_FREQUENCY_CORRELATION                    :          1         
+ANALYSIS_FULL_PACKET_CHANNEL_EST                  :          1         
+ANALYSIS_PHASE_CORR                               :          1         
+ANALYSIS_PREAMBLE_AVERAGING                       :          0         
+ANALYSIS_SYM_TIMING_CORR                          :          1         
+AUTO_READING_LIMIT                                :          0         
+CAPTURE_TIME_CW_US                                :        100         
+CW_TEST_AVERAGE                                   :          1         
+DUT_KEEP_TRANSMIT                                 :          1         
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+ENABLE_FAST_PER                                   :          0         
+EVM_AVERAGE                                       :          3         
+EVM_CAPTURE_TIME_11AC_VHT_US                      :        180 us      
+EVM_CAPTURE_TIME_11AG_US                          :         95 us      
+EVM_CAPTURE_TIME_11AX_HE_US                       :        400 us      
+EVM_CAPTURE_TIME_11BE_EHT_US                      :        400 us      
+EVM_CAPTURE_TIME_11B_L_US                         :        464 us      
+EVM_CAPTURE_TIME_11B_S_US                         :        232 us      
+EVM_CAPTURE_TIME_11N_GREENFIELD_US                :        115 us      
+EVM_CAPTURE_TIME_11N_MIXED_US                     :        123 us      
+EVM_CAPTURE_TIME_CONTROL_PHY_US                   :         46 us      
+EVM_CAPTURE_TIME_LPSC_PHY_US                      :         12 us      
+EVM_CAPTURE_TIME_OFDM_PHY_US                      :         12 us      
+EVM_CAPTURE_TIME_SC_PHY_US                        :         12 us      
+EVM_PRE_TRIG_TIME_US                              :          3 us      
+EVM_SYMBOL_NUM                                    :         18         
+IQ_P_TO_A_DSSS_CCK                                :          2 dB      
+IQ_P_TO_A_OFDM                                    :         12 dB      
+LOAD_11AX_11BE_SU_WAVEFORM                        :          1         
+LOAD_INTERNAL_WAVEFORM                            :          0         
+LOAD_LEGACY_WAVEFORM                              :          1         
+MASK_AVERAGE                                      :          3         
+MASK_SAMPLE_INTERVAL_US_CONTROL_PHY               :        108 us      
+MASK_SAMPLE_INTERVAL_US_LPSC_PHY                  :         40 us      
+MASK_SAMPLE_INTERVAL_US_OFDM_PHY                  :         40 us      
+MASK_SAMPLE_INTERVAL_US_SC_PHY                    :         40 us      
+MASK_SMP_TM_DSSS_US                               :        286 us      
+MASK_SMP_TM_OFDM_US                               :         95 us      
+PER_FRAME_COUNT                                   :        500         
+PER_VSG_TIMEOUT_SEC                               :         20 sec     
+PM_AVERAGE                                        :          3         
+PM_DSSS_SAMPLE_INTERVAL_US                        :         30 us      
+PM_IF_FREQ_SHIFT_MHZ                              :          0 MHz     
+PM_OFDM_SAMPLE_INTERVAL_US                        :         20 us      
+PM_SAMPLE_INTERVAL_US_CONTROL_PHY                 :         46 us      
+PM_SAMPLE_INTERVAL_US_LPSC_PHY                    :         12 us      
+PM_SAMPLE_INTERVAL_US_OFDM_PHY                    :         12 us      
+PM_SAMPLE_INTERVAL_US_SC_PHY                      :         12 us      
+PM_TRIGGER_DSSS_US                                :        100 us      
+PM_TRIGGER_OFDM_US                                :         20 us      
+RELATIVE_LIMIT                                    :          0         
+RESET_TEST_ITEM_DURING_RETRY                      :          0         
+RETRY_ERROR_ITEMS                                 :          0         
+RETRY_TEST_ITEM                                   :          0         
+SAVE_AUTOGENERATED_WAVEFORM_LOCAL                 :          0         
+SKIP_PACKET_COUNT                                 :          0         
+SPECTRUM_SAMPLE_INTERVAL_US_OFDM_PHY              :         12 us      
+SPECTRUM_SMP_TM_DSSS_US                           :        286 us      
+SPECTRUM_SMP_TM_OFDM_US                           :         95 us      
+VDUT_TIMEOUT_MS                                   :          0 msec    
+VSA_SAVE_CAPTURE_ALWAYS                           :          0         
+VSA_SAVE_CAPTURE_ON_FAILED                        :          1         
+VSA_TRIGGER_TIMEOUT_SEC                           :         17 secs    
+VSA_TRIGGER_TYPE                                  :          6         
+WAVEGEN_11AX_LAST_AMPDU_EOF_ON                    :          0         
+CW_POWER_FILTER_BW                                :   5.000000 MHz     
+CW_SPEC_FFT_RBW                                   :   1.000000 MHz     
+PACKET_DETECTION_GAP                              :   1.000000 us      
+PACKET_DETECTION_THRESHOLD                        :  10.000000 dB      
+PER_WAVEFORM_PACKET_POST_GAP_HE_TB                :  30.000000 us      
+PER_WAVEFORM_PACKET_POST_GAP_MU                   :  30.000000 us      
+PER_WAVEFORM_PACKET_POST_GAP_SU                   :  30.000000 us      
+PER_WAVEFORM_PACKET_POST_GAP_TFR                  :  10.000000 us      
+PM_PREAMBLE_START_US                              :   4.000000 us      
+PM_PREAMBLE_STOP_US                               :  16.000000 us      
+VSA_AMPLITUDE_TOLERANCE_DB                        :   3.000000 dB      
+VSA_PRE_TRIGGER_TIME_US                           :   3.000000 us      
+VSA_TRIGGER_LEVEL_DB                              : -25.000000 dB      
+VSG_MAX_POWER_11AC                                :  -5.000000         
+VSG_MAX_POWER_11B                                 :   0.000000         
+VSG_MAX_POWER_11G                                 :  -5.000000         
+VSG_MAX_POWER_11N                                 :  -5.000000         
+EVM_11N_HT20_REFERENCE_FILE_NAME_PREFIX           :  WiFi_HT20         
+EVM_11N_HT40_REFERENCE_FILE_NAME_PREFIX           :  WiFi_HT40         
+LOG_PATH                                          :         ./         
+PER_WAVEFORM_DESTINATION_MAC                      : 000000C0FFEE         
+PER_WAVEFORM_PATH                                 :   ../iqvsg         
+PER_WAVEFORM_PREFIX                               :                    
+PER_WAVEFORM_SUFFIX                               :                    
+SPECTRUM_FLATNESS_LIMIT_2G                        :                    
+SPECTRUM_FLATNESS_LIMIT_5G                        :                    
+SPECTRUM_FLATNESS_LIMIT_6G                        :                    
+Test Time = 0.010 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+12.CONNECT_IQ_TESTER  ________________________________________________________
+APP_ID                                            :          1         
+APT_ENABLE                                        :          0         
+DH_ENABLE                                         :          0         
+DH_OBTAIN_CONTROL_TIMEOUT_MS                      :     300000 ms      
+DH_PROBE_TIME_MS                                  :        100 ms      
+DH_TOKEN_ID                                       :          1         
+IQTESTER_RECONNECT                                :          0         
+IQTESTER_TYPE                                     :          1         
+REQUEST_RESOURCE_TIMEOUT_SEC                      :         30 sec     
+TEMP_COMP_THRESHOLD                               :   0.000000 CEL     
+IQTESTER_MODULE_01                                : 192.168.7.254:A         
+IQTESTER_MODULE_02                                :                    
+IQTESTER_MODULE_03                                :                    
+IQTESTER_MODULE_04                                :                    
+IQTESTER_MODULE_05                                :                    
+IQTESTER_MODULE_06                                :                    
+IQTESTER_MODULE_07                                :                    
+IQTESTER_MODULE_08                                :                    
+OPTION_STRING                                     :                    
+Test Time = 0.093 s
+IQMEASURE_VERSION                                 : 4.0.6.0 (2023-06-02) 289999 
+IQTESTER_HW_VERSION_01                            : M.5.0.0         
+IQTESTER_INFO                                     : IQmeasure: 4.0.6.0 (2023-06-02) 289999
+Tester 1 SN: IQ162DA4131
+Model number: IQXEL-M8X
+Firmware revision: 1.16.0
+Tester 1 hardware version: M.5.0.0
+
+ 
+IQTESTER_SERIAL_NUM_01                            : IQ162DA4131     
+TEST_MANAGER_VERSION                              : 5.0.1 (2022-11-11) 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+13.INSERT_DUT  _______________________________________________________________
+RELOAD_DUT_DLL                                    :          0         
+CONNECTION_STRING                                 : 192.168.1.1         
+DUT_DLL_FILENAME                                  : BRCM6726_Telnet.dll         
+EEPROM_FILENAME                                   :                    
+OPTION_STRING                                     : WLAN_BRCM_General_TELNET_config_5G.ini         
+Test Time = 1.196 s
+DUT_VERSION                                       : 5.0.0.5 (09/06/2023) Rev: 289999 
+VDUT_VERSION                                      : 3.0.0 (2012-8-24) 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+14.INITIALIZE_DUT  ___________________________________________________________
+Test Time = 2.615 s
+DUT_DRIVER_INFO                                   : 1.0.0
+Wl versions:
+ 
+DUT_NAME                                          : +               
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+15.LOAD_PATH_LOSS_TABLE  _____________________________________________________
+RX_PATH_LOSS_FILE                                 : path_loss.csv         
+TX_PATH_LOSS_FILE                                 : path_loss.csv         
+Test Time = 0.072 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+16.Verify_RSSI _______________________________________________________________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5500 MHz     
+CH_FREQ_MHZ                                       :       5500 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          1         
+ANT3                                              :          1         
+ANT4                                              :          1         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -70 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :          0 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+Test Time = 2.774 s
+RSSI_RX1                                          :       -69.00 dBm    ( -72, -68)
+RSSI_RX2                                          :       -70.00 dBm    ( -72, -68)
+RSSI_RX3                                          :       -69.00 dBm    ( -72, -68)
+RSSI_RX4                                          :       -69.00 dBm    ( -72, -68)
+GOOD_PACKETS                                      :          500        (,)
+TOTAL_PACKETS                                     :          500        (,)
+CABLE_LOSS_DB_RET1                                :        28.62 dB     (,)
+CABLE_LOSS_DB_RET2                                :        28.68 dB     (,)
+CABLE_LOSS_DB_RET3                                :        28.65 dB     (,)
+CABLE_LOSS_DB_RET4                                :        28.49 dB     (,)
+PER                                               :         0.00 %      (,)
+RX_POWER_LEVEL_DBM_RX1                            :       -70.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX2                            :       -70.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX3                            :       -70.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX4                            :       -70.00 dBm    (,)
+WAVEFORM_NAME                                     : ../iqvsg/WiFi_11AX_HE20_S1_MCS0.iqvsg 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+17.TX_CALIBRATION_TEST  ______________________________________________________
+CABLE_LOSS_DB_VSA1                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA2                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA3                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA4                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA5                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA6                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA7                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA8                                :   0.000000 dB      
+DUT_KEEP_TRANSMIT                                 :          1         
+OPTION_STRING                                     : WLAN_Power_Trimming_config_5G.ini;skip_ref_file         
+SAMPLING_TIME_US                                  : 150.000000 uS      
+TX_CAL_TIMEOUT_MS                                 : 600000.000000 MS      
+Test Time = 52.155 s
+CABLE_LOSS_DB_VSA1                                :        28.71        (,)
+CABLE_LOSS_DB_VSA2                                :        28.75        (,)
+CABLE_LOSS_DB_VSA3                                :        28.76        (,)
+CABLE_LOSS_DB_VSA4                                :        28.55        (,)
+CABLE_LOSS_DB_VSA5                                :         0.00        (,)
+CABLE_LOSS_DB_VSA6                                :         0.00        (,)
+CABLE_LOSS_DB_VSA7                                :         0.00        (,)
+CABLE_LOSS_DB_VSA8                                :         0.00        (,)
+CAL_TX_RESULT_1                                   : 
+
+	[5G_BW-20]  Chan: 36	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.78dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 13.23dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 13.02dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 13.10dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-20]  Chan: 52	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 13.10dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	NewAq = 0x21fe (8702)	=> OldAq = 0x228b (8843), Power Diff = -0.55dB 
+	Ant2:	Measured power = 13.20dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 13.22dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-20]  Chan: 100	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.75dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 13.07dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 12.81dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 13.02dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-20]  Chan: 120	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.94dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 12.99dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 13.23dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 12.85dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-20]  Chan: 149	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.91dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 13.10dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 12.73dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 12.88dBm, Power Diff < 0.5dB	=> No update 
+ 
+CAL_TX_RESULT_2                                   : 
+
+	[5G_BW-40]  Chan: 38	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.86dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 12.91dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 13.06dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 12.89dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-40]  Chan: 62	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.98dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 12.98dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 13.44dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 13.37dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-40]  Chan: 110	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.73dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 12.87dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 12.96dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 12.87dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-40]  Chan: 126	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.72dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 12.92dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 12.63dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 13.06dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-40]  Chan: 159	Standard: 11AX 	Rate: MCS7	Target_Power: 13.0	Power Offset: 0.0
+	Ant0:	Measured power = 12.69dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	NewAq = 0x21ae (8622)	=> OldAq = 0x222f (8751), Power Diff = -0.50dB 
+	Ant2:	Measured power = 12.54dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	NewAq = 0x20ff (8447)	=> OldAq = 0x2189 (8585), Power Diff = -0.54dB 
+ 
+CAL_TX_RESULT_3                                   : 
+
+	[5G_BW-80]  Chan: 42	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 9.81dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 9.60dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 10.18dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	NewAq = 0x2132 (8498)	=> OldAq = 0x21bd (8637), Power Diff = -0.55dB 
+
+	[5G_BW-80]  Chan: 58	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 10.07dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 10.27dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 10.50dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 10.08dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-80]  Chan: 106	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 9.85dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 10.39dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 10.01dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 9.78dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-80]  Chan: 122	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 9.61dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 9.56dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 9.85dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 10.02dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-80]  Chan: 155	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 9.87dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	NewAq = 0x21b6 (8630)	=> OldAq = 0x2245 (8773), Power Diff = -0.56dB 
+	Ant2:	NewAq = 0x1e0f (7695)	=> OldAq = 0x1eaa (7850), Power Diff = -0.61dB 
+	Ant3:	Measured power = 10.08dBm, Power Diff < 0.5dB	=> No update 
+ 
+CAL_TX_RESULT_4                                   : 
+	[5G_BW-160]  Chan: 50	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 9.96dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 9.66dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	Measured power = 10.23dBm, Power Diff < 0.5dB	=> No update 
+	Ant3:	Measured power = 10.03dBm, Power Diff < 0.5dB	=> No update 
+
+	[5G_BW-160]  Chan: 114	Standard: 11AC 	Rate: MCS7	Target_Power: 10.0	Power Offset: 0.0
+	Ant0:	Measured power = 9.93dBm, Power Diff < 0.5dB	=> No update 
+	Ant1:	Measured power = 10.42dBm, Power Diff < 0.5dB	=> No update 
+	Ant2:	NewAq = 0x1ec0 (7872)	=> OldAq = 0x1f47 (8007), Power Diff = -0.53dB 
+	Ant3:	NewAq = 0x21ad (8621)	=> OldAq = 0x228f (8847), Power Diff = -0.88dB 
+ 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+18.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT1 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : STA_TX_UL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :     CBW-80 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5530 MHz     
+CH_FREQ_MHZ                                       :       5530 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :       1000         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     :          0         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 2.835 s
+EVM_DB_AVG_S1                                     :       -38.87 dB     (, -38)
+MARGIN_DB_LO_A_VSA1                               :        18.46 dB     ( 0,)
+MARGIN_DB_LO_B_VSA1                               :        15.85 dB     ( 0,)
+MARGIN_DB_LO_C_VSA1                               :        13.45 dB     ( 0,)
+MARGIN_DB_LO_D_VSA1                               :        15.60 dB     ( 0,)
+MARGIN_DB_UP_A_VSA1                               :        13.45 dB     ( 0,)
+MARGIN_DB_UP_B_VSA1                               :        12.69 dB     ( 0,)
+MARGIN_DB_UP_C_VSA1                               :        14.56 dB     ( 0,)
+MARGIN_DB_UP_D_VSA1                               :        17.14 dB     ( 0,)
+OBW_PERCENTAGE_VSA1                               :        96.03 %      ( 80, 98.75)
+POWER_RMS_AVG_VSA1                                :        15.08 dBm    ( 13.5, 16.5)
+VALUE_LO_A_VSA1                                   :        -0.94 dB     ( -4, 4)
+VALUE_LO_B_VSA1                                   :        -2.59 dB     ( -6, 4)
+VALUE_UP_A_VSA1                                   :         0.71 dB     ( -4, 4)
+VALUE_UP_B_VSA1                                   :        -2.38 dB     ( -6, 4)
+VIOLATION_PERCENTAGE_VSA1                         :         0.00 %      ( 0, 0)
+FREQ_ERROR_AVG                                    :       -17.27 ppm    ( -20, 20)
+INFO_CBW                                          :           80 MHz    (,)
+LEAST_MARGIN_SUBCARRIER_VSA1                      :         -298        (,)
+NUMBER_OF_AVG                                     :            3        (,)
+SPATIAL_STREAM                                    :            1        (,)
+SUBCARRIER_LO_A_VSA1                              :         -299        (,)
+SUBCARRIER_LO_B_VSA1                              :         -499        (,)
+SUBCARRIER_UP_A_VSA1                              :          150        (,)
+SUBCARRIER_UP_B_VSA1                              :          500        (,)
+AMP_ERR_DB_VSA1                                   :        -0.01 dB     (,)
+CABLE_LOSS_DB_RET1                                :        28.55 dB     (,)
+DATA_RATE                                         :       680.60 Mbps   (,)
+FREQ_AT_MARGIN_LO_A_VSA1                          :       -40.35 MHz    (,)
+FREQ_AT_MARGIN_LO_B_VSA1                          :       -40.59 MHz    (,)
+FREQ_AT_MARGIN_LO_C_VSA1                          :      -117.34 MHz    (,)
+FREQ_AT_MARGIN_LO_D_VSA1                          :      -120.00 MHz    (,)
+FREQ_AT_MARGIN_UP_A_VSA1                          :        40.47 MHz    (,)
+FREQ_AT_MARGIN_UP_B_VSA1                          :        40.59 MHz    (,)
+FREQ_AT_MARGIN_UP_C_VSA1                          :       119.88 MHz    (,)
+FREQ_AT_MARGIN_UP_D_VSA1                          :       120.00 MHz    (,)
+FREQ_ERROR_MAX                                    :       -17.25 ppm    (,)
+FREQ_ERROR_MIN                                    :       -17.28 ppm    (,)
+LEAST_MARGIN_VALUE_VSA1                           :        -3.06 dB     (,)
+LO_LEAKAGE_VSA1                                   :       -36.83 dB     (,)
+OBW_PERCENTAGE_LOWER_VSA1                         :       -48.11 %      (,)
+OBW_PERCENTAGE_UPPER_VSA1                         :        47.92 %      (,)
+PHASE_ERR_VSA1                                    :        -0.06 Degree (,)
+PHASE_NOISE_RMS_ALL_VSA1                          :         0.00 Degree (,)
+POWER_DBM_RMS_AVG_S1                              :        15.08 dBm    (,)
+POWER_DBM_RMS_MAX_S1                              :        15.09 dBm    (,)
+POWER_DBM_RMS_MIN_S1                              :        15.08 dBm    (,)
+POWER_PEAK_AVG_VSA1                               :        25.72 dBm    (,)
+POWER_PEAK_MAX_VSA1                               :        26.10 dBm    (,)
+POWER_PEAK_MIN_VSA1                               :        25.53 dBm    (,)
+POWER_PRE_AVG_VSA1                                :        14.80 dBm    (,)
+POWER_PRE_MAX_VSA1                                :        14.81 dBm    (,)
+POWER_PRE_MIN_VSA1                                :        14.80 dBm    (,)
+POWER_RMS_MAX_VSA1                                :        15.10 dBm    (,)
+POWER_RMS_MIN_VSA1                                :        15.08 dBm    (,)
+SYMBOL_CLOCK_ERR                                  :       -15.14 ppm    (,)
+PSDU_CRC                                          : FAIL            
+TX_POWER_DBM                                      :        15.00 dBm    (,)
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+19.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT2 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : STA_TX_UL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :     CBW-80 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5530 MHz     
+CH_FREQ_MHZ                                       :       5530 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :       1000         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     :          0         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 2.801 s
+EVM_DB_AVG_S1                                     :       -38.88 dB     (, -38)
+MARGIN_DB_LO_A_VSA1                               :        17.36 dB     ( 0,)
+MARGIN_DB_LO_B_VSA1                               :        15.56 dB     ( 0,)
+MARGIN_DB_LO_C_VSA1                               :        11.49 dB     ( 0,)
+MARGIN_DB_LO_D_VSA1                               :        17.70 dB     ( 0,)
+MARGIN_DB_UP_A_VSA1                               :        13.97 dB     ( 0,)
+MARGIN_DB_UP_B_VSA1                               :        13.60 dB     ( 0,)
+MARGIN_DB_UP_C_VSA1                               :        13.69 dB     ( 0,)
+MARGIN_DB_UP_D_VSA1                               :        15.51 dB     ( 0,)
+OBW_PERCENTAGE_VSA1                               :        95.96 %      ( 80, 98.75)
+POWER_RMS_AVG_VSA1                                :        15.78 dBm    ( 13.5, 16.5)
+VALUE_LO_A_VSA1                                   :        -0.73 dB     ( -4, 4)
+VALUE_LO_B_VSA1                                   :        -2.40 dB     ( -6, 4)
+VALUE_UP_A_VSA1                                   :         0.62 dB     ( -4, 4)
+VALUE_UP_B_VSA1                                   :        -2.35 dB     ( -6, 4)
+VIOLATION_PERCENTAGE_VSA1                         :         0.00 %      ( 0, 0)
+FREQ_ERROR_AVG                                    :       -17.32 ppm    ( -20, 20)
+INFO_CBW                                          :           80 MHz    (,)
+LEAST_MARGIN_SUBCARRIER_VSA1                      :         -318        (,)
+NUMBER_OF_AVG                                     :            3        (,)
+SPATIAL_STREAM                                    :            1        (,)
+SUBCARRIER_LO_A_VSA1                              :         -289        (,)
+SUBCARRIER_LO_B_VSA1                              :         -500        (,)
+SUBCARRIER_UP_A_VSA1                              :          184        (,)
+SUBCARRIER_UP_B_VSA1                              :          500        (,)
+AMP_ERR_DB_VSA1                                   :         0.00 dB     (,)
+CABLE_LOSS_DB_RET1                                :        28.60 dB     (,)
+DATA_RATE                                         :       680.60 Mbps   (,)
+FREQ_AT_MARGIN_LO_A_VSA1                          :       -40.35 MHz    (,)
+FREQ_AT_MARGIN_LO_B_VSA1                          :       -40.59 MHz    (,)
+FREQ_AT_MARGIN_LO_C_VSA1                          :      -116.09 MHz    (,)
+FREQ_AT_MARGIN_LO_D_VSA1                          :      -120.00 MHz    (,)
+FREQ_AT_MARGIN_UP_A_VSA1                          :        40.47 MHz    (,)
+FREQ_AT_MARGIN_UP_B_VSA1                          :        40.59 MHz    (,)
+FREQ_AT_MARGIN_UP_C_VSA1                          :       117.66 MHz    (,)
+FREQ_AT_MARGIN_UP_D_VSA1                          :       120.00 MHz    (,)
+FREQ_ERROR_MAX                                    :       -17.30 ppm    (,)
+FREQ_ERROR_MIN                                    :       -17.34 ppm    (,)
+LEAST_MARGIN_VALUE_VSA1                           :        -3.27 dB     (,)
+LO_LEAKAGE_VSA1                                   :       -48.25 dB     (,)
+OBW_PERCENTAGE_LOWER_VSA1                         :       -48.11 %      (,)
+OBW_PERCENTAGE_UPPER_VSA1                         :        47.85 %      (,)
+PHASE_ERR_VSA1                                    :        -0.00 Degree (,)
+PHASE_NOISE_RMS_ALL_VSA1                          :         0.00 Degree (,)
+POWER_DBM_RMS_AVG_S1                              :        15.79 dBm    (,)
+POWER_DBM_RMS_MAX_S1                              :        15.92 dBm    (,)
+POWER_DBM_RMS_MIN_S1                              :        15.54 dBm    (,)
+POWER_PEAK_AVG_VSA1                               :        26.57 dBm    (,)
+POWER_PEAK_MAX_VSA1                               :        26.67 dBm    (,)
+POWER_PEAK_MIN_VSA1                               :        26.36 dBm    (,)
+POWER_PRE_AVG_VSA1                                :        15.52 dBm    (,)
+POWER_PRE_MAX_VSA1                                :        15.64 dBm    (,)
+POWER_PRE_MIN_VSA1                                :        15.27 dBm    (,)
+POWER_RMS_MAX_VSA1                                :        15.90 dBm    (,)
+POWER_RMS_MIN_VSA1                                :        15.56 dBm    (,)
+SYMBOL_CLOCK_ERR                                  :       -15.15 ppm    (,)
+PSDU_CRC                                          : FAIL            
+TX_POWER_DBM                                      :        15.00 dBm    (,)
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+20.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT3 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : STA_TX_UL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :     CBW-80 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5530 MHz     
+CH_FREQ_MHZ                                       :       5530 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :       1000         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     :          0         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 2.799 s
+EVM_DB_AVG_S1                                     :       -38.98 dB     (, -38)
+MARGIN_DB_LO_A_VSA1                               :        17.77 dB     ( 0,)
+MARGIN_DB_LO_B_VSA1                               :        14.71 dB     ( 0,)
+MARGIN_DB_LO_C_VSA1                               :        10.73 dB     ( 0,)
+MARGIN_DB_LO_D_VSA1                               :        17.13 dB     ( 0,)
+MARGIN_DB_UP_A_VSA1                               :        14.47 dB     ( 0,)
+MARGIN_DB_UP_B_VSA1                               :        13.71 dB     ( 0,)
+MARGIN_DB_UP_C_VSA1                               :        12.90 dB     ( 0,)
+MARGIN_DB_UP_D_VSA1                               :        17.23 dB     ( 0,)
+OBW_PERCENTAGE_VSA1                               :        96.06 %      ( 80, 98.75)
+POWER_RMS_AVG_VSA1                                :        15.19 dBm    ( 13.5, 16.5)
+VALUE_LO_A_VSA1                                   :        -0.68 dB     ( -4, 4)
+VALUE_LO_B_VSA1                                   :        -2.27 dB     ( -6, 4)
+VALUE_UP_A_VSA1                                   :        -0.85 dB     ( -4, 4)
+VALUE_UP_B_VSA1                                   :        -2.88 dB     ( -6, 4)
+VIOLATION_PERCENTAGE_VSA1                         :         0.00 %      ( 0, 0)
+FREQ_ERROR_AVG                                    :       -17.35 ppm    ( -20, 20)
+INFO_CBW                                          :           80 MHz    (,)
+LEAST_MARGIN_SUBCARRIER_VSA1                      :          500        (,)
+NUMBER_OF_AVG                                     :            3        (,)
+SPATIAL_STREAM                                    :            1        (,)
+SUBCARRIER_LO_A_VSA1                              :         -285        (,)
+SUBCARRIER_LO_B_VSA1                              :         -499        (,)
+SUBCARRIER_UP_A_VSA1                              :          318        (,)
+SUBCARRIER_UP_B_VSA1                              :          500        (,)
+AMP_ERR_DB_VSA1                                   :         0.01 dB     (,)
+CABLE_LOSS_DB_RET1                                :        28.59 dB     (,)
+DATA_RATE                                         :       680.60 Mbps   (,)
+FREQ_AT_MARGIN_LO_A_VSA1                          :       -40.43 MHz    (,)
+FREQ_AT_MARGIN_LO_B_VSA1                          :       -78.87 MHz    (,)
+FREQ_AT_MARGIN_LO_C_VSA1                          :       -91.33 MHz    (,)
+FREQ_AT_MARGIN_LO_D_VSA1                          :      -120.00 MHz    (,)
+FREQ_AT_MARGIN_UP_A_VSA1                          :        40.47 MHz    (,)
+FREQ_AT_MARGIN_UP_B_VSA1                          :        40.86 MHz    (,)
+FREQ_AT_MARGIN_UP_C_VSA1                          :       119.34 MHz    (,)
+FREQ_AT_MARGIN_UP_D_VSA1                          :       120.00 MHz    (,)
+FREQ_ERROR_MAX                                    :       -17.34 ppm    (,)
+FREQ_ERROR_MIN                                    :       -17.37 ppm    (,)
+LEAST_MARGIN_VALUE_VSA1                           :        -3.12 dB     (,)
+LO_LEAKAGE_VSA1                                   :       -42.09 dB     (,)
+OBW_PERCENTAGE_LOWER_VSA1                         :       -48.16 %      (,)
+OBW_PERCENTAGE_UPPER_VSA1                         :        47.90 %      (,)
+PHASE_ERR_VSA1                                    :         0.05 Degree (,)
+PHASE_NOISE_RMS_ALL_VSA1                          :         0.00 Degree (,)
+POWER_DBM_RMS_AVG_S1                              :        15.21 dBm    (,)
+POWER_DBM_RMS_MAX_S1                              :        15.21 dBm    (,)
+POWER_DBM_RMS_MIN_S1                              :        15.21 dBm    (,)
+POWER_PEAK_AVG_VSA1                               :        25.95 dBm    (,)
+POWER_PEAK_MAX_VSA1                               :        26.06 dBm    (,)
+POWER_PEAK_MIN_VSA1                               :        25.72 dBm    (,)
+POWER_PRE_AVG_VSA1                                :        14.94 dBm    (,)
+POWER_PRE_MAX_VSA1                                :        14.94 dBm    (,)
+POWER_PRE_MIN_VSA1                                :        14.93 dBm    (,)
+POWER_RMS_MAX_VSA1                                :        15.20 dBm    (,)
+POWER_RMS_MIN_VSA1                                :        15.19 dBm    (,)
+SYMBOL_CLOCK_ERR                                  :       -15.45 ppm    (,)
+PSDU_CRC                                          : FAIL            
+TX_POWER_DBM                                      :        15.00 dBm    (,)
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+21.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT4 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : STA_TX_UL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :     CBW-80 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5530 MHz     
+CH_FREQ_MHZ                                       :       5530 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :       1000         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     :          0         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 2.807 s
+EVM_DB_AVG_S1                                     :       -38.69 dB     (, -38)
+MARGIN_DB_LO_A_VSA1                               :        16.06 dB     ( 0,)
+MARGIN_DB_LO_B_VSA1                               :        14.37 dB     ( 0,)
+MARGIN_DB_LO_C_VSA1                               :        12.61 dB     ( 0,)
+MARGIN_DB_LO_D_VSA1                               :        16.94 dB     ( 0,)
+MARGIN_DB_UP_A_VSA1                               :        14.06 dB     ( 0,)
+MARGIN_DB_UP_B_VSA1                               :        13.23 dB     ( 0,)
+MARGIN_DB_UP_C_VSA1                               :        11.09 dB     ( 0,)
+MARGIN_DB_UP_D_VSA1                               :        13.57 dB     ( 0,)
+OBW_PERCENTAGE_VSA1                               :        96.00 %      ( 80, 98.75)
+POWER_RMS_AVG_VSA1                                :        15.33 dBm    ( 13.5, 16.5)
+VALUE_LO_A_VSA1                                   :         0.72 dB     ( -4, 4)
+VALUE_LO_B_VSA1                                   :         0.19 dB     ( -6, 4)
+VALUE_UP_A_VSA1                                   :        -0.28 dB     ( -4, 4)
+VALUE_UP_B_VSA1                                   :        -2.76 dB     ( -6, 4)
+VIOLATION_PERCENTAGE_VSA1                         :         0.00 %      ( 0, 0)
+FREQ_ERROR_AVG                                    :       -17.40 ppm    ( -20, 20)
+INFO_CBW                                          :           80 MHz    (,)
+LEAST_MARGIN_SUBCARRIER_VSA1                      :          194        (,)
+NUMBER_OF_AVG                                     :            3        (,)
+SPATIAL_STREAM                                    :            1        (,)
+SUBCARRIER_LO_A_VSA1                              :         -136        (,)
+SUBCARRIER_LO_B_VSA1                              :         -368        (,)
+SUBCARRIER_UP_A_VSA1                              :          298        (,)
+SUBCARRIER_UP_B_VSA1                              :          500        (,)
+AMP_ERR_DB_VSA1                                   :        -0.01 dB     (,)
+CABLE_LOSS_DB_RET1                                :        28.40 dB     (,)
+DATA_RATE                                         :       680.60 Mbps   (,)
+FREQ_AT_MARGIN_LO_A_VSA1                          :       -40.43 MHz    (,)
+FREQ_AT_MARGIN_LO_B_VSA1                          :       -40.59 MHz    (,)
+FREQ_AT_MARGIN_LO_C_VSA1                          :      -115.39 MHz    (,)
+FREQ_AT_MARGIN_LO_D_VSA1                          :      -120.00 MHz    (,)
+FREQ_AT_MARGIN_UP_A_VSA1                          :        40.47 MHz    (,)
+FREQ_AT_MARGIN_UP_B_VSA1                          :        40.86 MHz    (,)
+FREQ_AT_MARGIN_UP_C_VSA1                          :       119.53 MHz    (,)
+FREQ_AT_MARGIN_UP_D_VSA1                          :       120.00 MHz    (,)
+FREQ_ERROR_MAX                                    :       -17.38 ppm    (,)
+FREQ_ERROR_MIN                                    :       -17.41 ppm    (,)
+LEAST_MARGIN_VALUE_VSA1                           :        -3.09 dB     (,)
+LO_LEAKAGE_VSA1                                   :       -40.46 dB     (,)
+OBW_PERCENTAGE_LOWER_VSA1                         :       -48.14 %      (,)
+OBW_PERCENTAGE_UPPER_VSA1                         :        47.85 %      (,)
+PHASE_ERR_VSA1                                    :        -0.08 Degree (,)
+PHASE_NOISE_RMS_ALL_VSA1                          :         0.00 Degree (,)
+POWER_DBM_RMS_AVG_S1                              :        15.34 dBm    (,)
+POWER_DBM_RMS_MAX_S1                              :        15.34 dBm    (,)
+POWER_DBM_RMS_MIN_S1                              :        15.33 dBm    (,)
+POWER_PEAK_AVG_VSA1                               :        26.33 dBm    (,)
+POWER_PEAK_MAX_VSA1                               :        26.40 dBm    (,)
+POWER_PEAK_MIN_VSA1                               :        26.20 dBm    (,)
+POWER_PRE_AVG_VSA1                                :        15.04 dBm    (,)
+POWER_PRE_MAX_VSA1                                :        15.04 dBm    (,)
+POWER_PRE_MIN_VSA1                                :        15.04 dBm    (,)
+POWER_RMS_MAX_VSA1                                :        15.33 dBm    (,)
+POWER_RMS_MIN_VSA1                                :        15.32 dBm    (,)
+SYMBOL_CLOCK_ERR                                  :       -13.34 ppm    (,)
+PSDU_CRC                                          : FAIL            
+TX_POWER_DBM                                      :        15.00 dBm    (,)
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+22.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT1 __________________________________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : STA_RX_DL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5500 MHz     
+CH_FREQ_MHZ                                       :       5500 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -92 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :          0 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+Test Time = 3.328 s
+PER                                               :         0.00 %      (, 10)
+GOOD_PACKETS                                      :          500        (,)
+TOTAL_PACKETS                                     :          500        (,)
+CABLE_LOSS_DB_RET1                                :        28.62 dB     (,)
+RSSI_RX1                                          :       -89.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX1                            :       -92.00 dBm    (,)
+WAVEFORM_NAME                                     : ../iqvsg/WiFi_11AX_HE20_S1_MCS0.iqvsg 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+23.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT2 __________________________________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : STA_RX_DL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5500 MHz     
+CH_FREQ_MHZ                                       :       5500 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -92 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :          0 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+Test Time = 3.035 s
+PER                                               :         0.00 %      (, 10)
+GOOD_PACKETS                                      :          500        (,)
+TOTAL_PACKETS                                     :          500        (,)
+CABLE_LOSS_DB_RET1                                :        28.68 dB     (,)
+RSSI_RX1                                          :       -89.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX1                            :       -92.00 dBm    (,)
+WAVEFORM_NAME                                     : ../iqvsg/WiFi_11AX_HE20_S1_MCS0.iqvsg 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+24.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT3 __________________________________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : STA_RX_DL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5500 MHz     
+CH_FREQ_MHZ                                       :       5500 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -92 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :          0 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+Test Time = 3.051 s
+PER                                               :         0.00 %      (, 10)
+GOOD_PACKETS                                      :          500        (,)
+TOTAL_PACKETS                                     :          500        (,)
+CABLE_LOSS_DB_RET1                                :        28.65 dB     (,)
+RSSI_RX1                                          :       -88.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX1                            :       -92.00 dBm    (,)
+WAVEFORM_NAME                                     : ../iqvsg/WiFi_11AX_HE20_S1_MCS0.iqvsg 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+25.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT4 __________________________________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : STA_RX_DL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       5500 MHz     
+CH_FREQ_MHZ                                       :       5500 MHz     
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+ANT5                                              :          0         
+ANT6                                              :          0         
+ANT7                                              :          0         
+ANT8                                              :          0         
+ARRAY_HANDLING_METHOD                             :          3         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -92 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+CABLE_LOSS_DB5                                    :   0.000000 dB      
+CABLE_LOSS_DB6                                    :   0.000000 dB      
+CABLE_LOSS_DB7                                    :   0.000000 dB      
+CABLE_LOSS_DB8                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :          0 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+Test Time = 3.073 s
+PER                                               :         0.00 %      (, 10)
+GOOD_PACKETS                                      :          500        (,)
+TOTAL_PACKETS                                     :          500        (,)
+CABLE_LOSS_DB_RET1                                :        28.49 dB     (,)
+RSSI_RX1                                          :       -89.00 dBm    (,)
+RX_POWER_LEVEL_DBM_RX1                            :       -92.00 dBm    (,)
+WAVEFORM_NAME                                     : ../iqvsg/WiFi_11AX_HE20_S1_MCS0.iqvsg 
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+26.REMOVE_DUT  _______________________________________________________________
+OPTION_STRING                                     :                    
+Test Time = 0.366 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            
+27.DISCONNECT_IQ_TESTER  _____________________________________________________
+Test Time = 0.002 s
+ERROR_MESSAGE                                     :[Info] Function completed.
+            --------------------------------------------------------------------
+                         *************
+                         *  P A S S  *
+                         *************
+1.GLOBAL_SETTINGS                                           :0.016 s
+2.INSERT_DUT                                                :1.669 s
+3.INITIALIZE_DUT                                            :2.655 s
+4.CONNECT_IQ_TESTER                                         :0.504 s
+5.LOAD_PATH_LOSS_TABLE                                      :0.009 s
+6.IMPLICIT_BEAMFORMING_CAL  MCS0 VHT BW-20                  :70.493 s
+7.IMPLICIT_BEAMFORMING_VERIFICATION  MCS0 VHT BW-20         :14.347 s
+8.RX_CALIBRATION                                            :35.743 s
+9.REMOVE_DUT                                                :0.352 s
+10.DISCONNECT_IQ_TESTER                                     :0.002 s
+11.GLOBAL_SETTINGS                                          :0.010 s
+12.CONNECT_IQ_TESTER                                        :0.093 s
+13.INSERT_DUT                                               :1.196 s
+14.INITIALIZE_DUT                                           :2.615 s
+15.LOAD_PATH_LOSS_TABLE                                     :0.072 s
+16.Verify_RSSI                                              :2.774 s
+17.TX_CALIBRATION_TEST                                      :52.155 s
+18.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT1:2.835 s
+19.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT2:2.801 s
+20.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT3:2.799 s
+21.TX_VERIFY EVM MASK POWER SPECTRUM 5530 MCS13 EHT_MU BW-80 ANT4:2.807 s
+22.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT1                 :3.328 s
+23.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT2                 :3.035 s
+24.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT3                 :3.051 s
+25.RX_VERIFY PER 5500 MCS0 HE_SU BW-20 ANT4                 :3.073 s
+26.REMOVE_DUT                                               :0.366 s
+27.DISCONNECT_IQ_TESTER                                     :0.002 s
+Total Run(s)                  :1
+Passed Run(s)                 :1
+Failed Run(s) on Limits       :0
+Failed Run(s) on Errors       :0
+In This Run:
+    Fail(s) on Limits         :0
+    Fail(s) on Errors         :0
+    Flow Run Time             :209.065 s
+    Test Function Time        :208.804 s
+--------------------------------------------------------------------
